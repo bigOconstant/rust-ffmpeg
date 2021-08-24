@@ -1197,6 +1197,7 @@ impl From<AVCodecID> for Id {
             AV_CODEC_ID_ADPCM_IMA_MOFLEX => Id::ADPCM_IMA_MOFLEX,
             #[cfg(feature = "ffmpeg_4_4")]
             AV_CODEC_ID_FASTAUDIO => Id::FASTAUDIO,
+            _=> Id::FASTAUDIO,
         }
     }
 }
