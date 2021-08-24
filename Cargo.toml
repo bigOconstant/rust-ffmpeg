@@ -111,5 +111,5 @@ version  = "0.12"
 optional = true
 
 [dependencies.ffmpeg-sys-next]
-version = "4.4.0"
-default-features = false
+git = "https://github.com/bigOconstant/rust-ffmpeg-sys"
+branch = "master"
